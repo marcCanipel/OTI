@@ -35,10 +35,29 @@ public class Money {
 		if(this == o){
 			return true;
 		}
+		if(!(o instanceof Money)){
+			throw new IllegalArgumentException();
+		}
+
 		Money f = (Money) o;
+		if(!(this.getCurrency()).equals(f.getCurrency())){
+			if(this.getCurrency().toUpperCase().equals(f.getCurrency().toUpperCase())){
+				throw new IncompatibleCurrencyException(this.getCurrency(), f.getCurrency());
+			} else {
+				return false;
+			}
+		}
 		if(this.getValue() == f.getValue() && this.getCurrency() != f.getCurrency()){
 			return false;
 		}
+		if(this.getValue() != f.getValue() && this.getCurrency() == f.getCurrency()){
+			return false;
+		}
+		if(this.getValue() != f.getValue() && this.getCurrency() != f.getCurrency()){
+			return false;
+		}
+
+
 		return true;
 	}
 

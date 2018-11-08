@@ -3,6 +3,7 @@ package fr.ulille1.fil.odeva;
 import org.junit.*;
 
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 public class MoneyEqualsTest {
 
@@ -26,12 +27,35 @@ public class MoneyEqualsTest {
     @Test
     public void TestSameMoneySameDivise() throws UnexistingCurrencyException{
         Money m = mf.createMoney(12,"EUR");
-        m.equals(f12EUR);
+        assertTrue(m.equals(f12EUR));
     }
 
     @Test
     public void TestSameMoneyNotSameDivise() throws UnexistingCurrencyException{
         Money m = mf.createMoney(12,"CHF");
         assertFalse(m.equals(f12EUR));
+    }
+
+    @Test
+    public void TestNotSameMoneySameDivise() throws UnexistingCurrencyException{
+        Money m = mf.createMoney(22,"EUR");
+        assertFalse(m.equals(f12EUR));
+    }
+
+    @Test
+    public void TestNotSameMoneyNotSameDivise() throws UnexistingCurrencyException{
+        Money m = mf.createMoney(22,"CHF");
+        assertFalse(m.equals(f14EUR));
+    }
+
+    @Test(expected = IncompatibleCurrencyException.class)
+    public void TestSameMoneyWithMinusculeCurrency() throws UnexistingCurrencyException{
+        Money m=mf.createMoney(12, "eur");
+        m.equals(f12EUR);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void TestMoneyWithAnIllegalArgument() throws UnexistingCurrencyException{
+        f12EUR.equals(new String());
     }
 }

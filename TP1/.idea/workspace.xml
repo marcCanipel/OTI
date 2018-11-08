@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c9d6ac2-3b72-4f65-9094-e595b9647107" name="Default Changelist" comment="" />
+    <list default="true" id="2c9d6ac2-3b72-4f65-9094-e595b9647107" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TP1/fr/ulille1/fil/odeva/Money.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TP1/fr/ulille1/fil/odeva/Money.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/TP1/fr/ulille1/fil/odeva/MoneyEqualsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/TP1/fr/ulille1/fil/odeva/MoneyEqualsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/ulille1/fil/odeva/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/ulille1/fil/odeva/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyEqualsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyEqualsTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,85 +20,66 @@
     <session id="427574369">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="603" />
+          <entry key="java" value="859" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="603" />
+          <entry key="JAVA" value="859" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyAddTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state>
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyEqualsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/ulille1/fil/odeva/MoneyOps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/ulille1/fil/odeva/MoneyFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyEqualsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="742">
+              <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/ulille1/fil/odeva/Money.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-              <folding>
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="139">
+              <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -105,12 +93,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyAddTestCase.java" />
-        <option value="$PROJECT_DIR$/src/fr/ulille1/fil/odeva/Money.java" />
         <option value="$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyEqualsTest.java" />
+        <option value="$PROJECT_DIR$/src/fr/ulille1/fil/odeva/Money.java" />
       </list>
     </option>
   </component>
@@ -126,12 +117,13 @@
     <option name="width" value="1920" />
     <option name="height" value="1084" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,7 +157,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,7 +166,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541522863475" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541592284034" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -194,8 +186,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="MoneyAddTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoneyEqualsTest">
+    <configuration name="MoneyEqualsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1" />
       <extension name="coverage">
         <pattern>
@@ -204,8 +196,76 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="fr.ulille1.fil.odeva" />
-      <option name="MAIN_CLASS_NAME" value="fr.ulille1.fil.odeva.MoneyAddTestCase" />
+      <option name="MAIN_CLASS_NAME" value="fr.ulille1.fil.odeva.MoneyEqualsTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyEqualsTest.TestNotSameMoneyNotSameDivise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.ulille1.fil.odeva.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.ulille1.fil.odeva" />
+      <option name="MAIN_CLASS_NAME" value="fr.ulille1.fil.odeva.MoneyEqualsTest" />
+      <option name="METHOD_NAME" value="TestNotSameMoneyNotSameDivise" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyEqualsTest.TestNotSameMoneySameDivise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.ulille1.fil.odeva.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.ulille1.fil.odeva" />
+      <option name="MAIN_CLASS_NAME" value="fr.ulille1.fil.odeva.MoneyEqualsTest" />
+      <option name="METHOD_NAME" value="TestNotSameMoneySameDivise" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyEqualsTest.TestSameMoneyNotSameDivise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.ulille1.fil.odeva.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.ulille1.fil.odeva" />
+      <option name="MAIN_CLASS_NAME" value="fr.ulille1.fil.odeva.MoneyEqualsTest" />
+      <option name="METHOD_NAME" value="TestSameMoneyNotSameDivise" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyEqualsTest.TestSameMoneyWithMinusculeCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.ulille1.fil.odeva.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fr.ulille1.fil.odeva" />
+      <option name="MAIN_CLASS_NAME" value="fr.ulille1.fil.odeva.MoneyEqualsTest" />
+      <option name="METHOD_NAME" value="TestSameMoneyWithMinusculeCurrency" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -220,9 +280,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MoneyEqualsTest" />
+      <item itemvalue="JUnit.MoneyEqualsTest.TestNotSameMoneySameDivise" />
+      <item itemvalue="JUnit.MoneyEqualsTest.TestSameMoneyNotSameDivise" />
+      <item itemvalue="JUnit.MoneyEqualsTest.TestNotSameMoneyNotSameDivise" />
+      <item itemvalue="JUnit.MoneyEqualsTest.TestSameMoneyWithMinusculeCurrency" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoneyAddTestCase" />
+        <item itemvalue="JUnit.MoneyEqualsTest" />
+        <item itemvalue="JUnit.MoneyEqualsTest.TestSameMoneyWithMinusculeCurrency" />
+        <item itemvalue="JUnit.MoneyEqualsTest.TestSameMoneyNotSameDivise" />
+        <item itemvalue="JUnit.MoneyEqualsTest.TestNotSameMoneyNotSameDivise" />
+        <item itemvalue="JUnit.MoneyEqualsTest.TestNotSameMoneySameDivise" />
       </list>
     </recent_temporary>
   </component>
@@ -236,35 +307,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541517903057</updated>
-      <workItem from="1541517904605" duration="4957000" />
+      <workItem from="1541517904605" duration="5557000" />
+      <workItem from="1541575794125" duration="1029000" />
+      <workItem from="1541589417548" duration="2869000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MoneyAddTestCase - 2018.11.06 at 16h 43m 10s.xml">
-      <configuration name="MoneyAddTestCase" configurationId="JUnit" />
+    <history-entry file="MoneyEqualsTest_TestSameMoneyWithMinusculeCurrency - 2018.11.07 at 12h 48m 27s.xml">
+      <configuration name="MoneyEqualsTest.TestSameMoneyWithMinusculeCurrency" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyAddTestCase - 2018.11.06 at 16h 48m 45s.xml">
-      <configuration name="MoneyAddTestCase" configurationId="JUnit" />
+    <history-entry file="MoneyEqualsTest_TestSameMoneyNotSameDivise - 2018.11.07 at 12h 48m 44s.xml">
+      <configuration name="MoneyEqualsTest.TestSameMoneyNotSameDivise" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyAddTestCase - 2018.11.06 at 16h 51m 01s.xml">
-      <configuration name="MoneyAddTestCase" configurationId="JUnit" />
+    <history-entry file="MoneyEqualsTest_TestSameMoneyNotSameDivise - 2018.11.07 at 12h 50m 59s.xml">
+      <configuration name="MoneyEqualsTest.TestSameMoneyNotSameDivise" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyAddTestCase - 2018.11.06 at 17h 15m 08s.xml">
-      <configuration name="MoneyAddTestCase" configurationId="JUnit" />
+    <history-entry file="MoneyEqualsTest_TestSameMoneyNotSameDivise - 2018.11.07 at 12h 51m 07s.xml">
+      <configuration name="MoneyEqualsTest.TestSameMoneyNotSameDivise" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyAddTestCase - 2018.11.06 at 17h 42m 32s.xml">
-      <configuration name="MoneyAddTestCase" configurationId="JUnit" />
+    <history-entry file="MoneyEqualsTest_TestSameMoneyWithMinusculeCurrency - 2018.11.07 at 12h 51m 16s.xml">
+      <configuration name="MoneyEqualsTest.TestSameMoneyWithMinusculeCurrency" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyAddTestCase - 2018.11.06 at 17h 45m 06s.xml">
-      <configuration name="MoneyAddTestCase" configurationId="JUnit" />
+    <history-entry file="MoneyEqualsTest_TestSameMoneyWithMinusculeCurrency - 2018.11.07 at 12h 51m 42s.xml">
+      <configuration name="MoneyEqualsTest.TestSameMoneyWithMinusculeCurrency" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MoneyAddTestCase - 2018.11.06 at 17h 47m 17s.xml">
-      <configuration name="MoneyAddTestCase" configurationId="JUnit" />
+    <history-entry file="MoneyEqualsTest_TestSameMoneyWithMinusculeCurrency - 2018.11.07 at 12h 54m 34s.xml">
+      <configuration name="MoneyEqualsTest.TestSameMoneyWithMinusculeCurrency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyEqualsTest - 2018.11.07 at 12h 54m 55s.xml">
+      <configuration name="MoneyEqualsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyEqualsTest - 2018.11.07 at 12h 57m 39s.xml">
+      <configuration name="MoneyEqualsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MoneyEqualsTest - 2018.11.07 at 13h 04m 08s.xml">
+      <configuration name="MoneyEqualsTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4957000" />
+    <option name="totallyTimeSpent" value="9455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,37 +358,36 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32985386" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32985386" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32985386" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,6 +397,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/fr/ulille1/fil/odeva/MoneyOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/ulille1/fil/odeva/MoneyFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -323,7 +411,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/ulille1/fil/odeva/MoneyOps.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/ulille1/fil/odeva/IncompatibleCurrencyException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
@@ -332,31 +420,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyAddTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state>
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyEqualsTest.java">
+    <entry file="file://$PROJECT_DIR$/src/fr/ulille1/fil/odeva/UnexistingCurrencyException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="144">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/ulille1/fil/odeva/Money.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state relative-caret-position="139">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fr/ulille1/fil/odeva/MoneyEqualsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="58" column="36" lean-forward="true" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
           <folding>
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
