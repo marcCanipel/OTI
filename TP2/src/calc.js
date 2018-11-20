@@ -3,7 +3,10 @@ function calc() {
 }
 
 calc.prototype.displayResult=function (resultDiv) {
-            resultDiv.innerHTML="Result : "+this.message;
+            resultDiv.innerHTML=this.message;
+            if(!this.message.includes("Result :")){
+                resultDiv.innerHTML="<span style='color:red'>"+this.message+"</span>";
+            }
 };
 
 calc.prototype.computeResult=function (form) {
@@ -19,6 +22,9 @@ calc.prototype.computeResult=function (form) {
                     res=MoneyOps.add(m1,m2);
                     this.message="Result : "+(res.toString())+"";
 
+                } else if (ops==="SUB"){
+                    res=MoneyOps.sub(m1,m2);
+                    this.message="Result : "+(res.toString())+"";
                 } else {
                     this.message="Unsupported operation "+ops+"";
 
