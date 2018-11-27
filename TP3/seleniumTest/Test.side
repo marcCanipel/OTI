@@ -1,0 +1,264 @@
+{
+  "id": "d8b499fc-8404-4412-a3c8-6808a2e0bb44",
+  "version": "1.1",
+  "name": "Test",
+  "url": "http://forge.fil.univ-lille1.fr",
+  "tests": [{
+    "id": "019a8d8f-6b18-4f47-9ebe-b3a3e86baf24",
+    "name": "verifyMenu",
+    "commands": [{
+      "id": "0a26d5a9-ecdd-484b-b5b8-d8ac73575855",
+      "comment": "",
+      "command": "open",
+      "target": "/OTI",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c17f444-5651-4dd9-9a45-77c40b19e504",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e54561a7-4ac3-4e94-b62f-ac0e6c5e6c31",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Wiki",
+      "targets": [
+        ["linkText=Wiki", "linkText"],
+        ["css=li.first.active > a", "css"],
+        ["css=.active > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Wiki')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/OTI/wiki')])[2]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": "Wiki"
+    }, {
+      "id": "2551b2d9-620b-455f-b1f9-a7bb00da19bd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Timeline",
+      "targets": [
+        ["linkText=Timeline", "linkText"],
+        ["css=#liflmainnav li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Timeline')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/timeline')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "Timeline"
+    }, {
+      "id": "ee45bb7a-cd98-4e9d-bc3b-5f4bb7afdf04",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "OTI",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7745e4f9-2a33-49ad-a9ff-26b57e071aaa",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "OTI",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d125f8e8-9425-492b-9ca1-47efd0ca92e5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Roadmap",
+      "targets": [
+        ["linkText=Roadmap", "linkText"],
+        ["css=#liflmainnav li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Roadmap')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/roadmap')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": "Roadmap"
+    }, {
+      "id": "cdda788a-7b0a-4ea1-890e-ff6a4bd173a2",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "OTI",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef0adad8-648f-4d08-b375-ae233c9be9f7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=Browse Source",
+      "targets": [
+        ["linkText=Browse Source", "linkText"],
+        ["css=#liflmainnav li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse Source')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/browser')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "Browse Source"
+    }, {
+      "id": "25d7c42e-e30b-4af9-8ecf-319a532cb2df",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "OTI",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3385b82a-c190-4a49-a465-7a9f5c1888f7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": "View Tickets"
+    }, {
+      "id": "e6bb58a5-a17d-4e1c-b3bf-40a3e50352d6",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": "51,5"
+    }, {
+      "id": "0cb80944-da51-476d-89d7-e55df51eaddc",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": "51,5"
+    }, {
+      "id": "277087ac-dcef-49c4-a045-c5db73c454c2",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": "51,5"
+    }, {
+      "id": "84896f44-43f0-43af-908e-97280685c77d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=View Tickets",
+      "targets": [
+        ["linkText=View Tickets", "linkText"],
+        ["css=li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'View Tickets')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/report')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfed3f2e-7017-4b70-9fe1-03a5d038a064",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": "30,10"
+    }, {
+      "id": "0e0f9b67-8ce9-466e-971d-4f554c138bd6",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": "30,10"
+    }, {
+      "id": "7b02d759-b4fa-4da4-a167-63b12b64dde4",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": "30,10"
+    }, {
+      "id": "d8449bc8-caf6-4448-9505-6be9ed98bde2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Search",
+      "targets": [
+        ["linkText=Search", "linkText"],
+        ["css=#liflmainnav > ul > li.last > a", "css"],
+        ["css=.last:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Search')]", "xpath:link"],
+        ["xpath=//div[@id='liflmainnav']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/OTI/search')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ef7b7a7-2285-4fe9-b234-01027f928634",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Roadmap – OTI",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67554e9a-f3e2-4ab9-bb1f-6c909945152b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "OTI",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "685215a8-b5dd-4111-b78c-309e2d8f8c78",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["019a8d8f-6b18-4f47-9ebe-b3a3e86baf24"]
+  }],
+  "urls": ["http://forge.fil.univ-lille1.fr/"],
+  "plugins": []
+}
