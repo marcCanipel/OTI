@@ -16,7 +16,7 @@ public class MoneyAddTestCase
     {
       mf=MoneyFactory.getDefaultFactory();
       f12EUR=mf.createMoney(12, "EUR");
-      f14EUR=mf.createMoney(14, "EUR");;
+      f14EUR=mf.createMoney(14, "EUR");
     }
 
     /**
@@ -28,7 +28,5 @@ public class MoneyAddTestCase
         Money expected=mf.createMoney(26, "EUR");
         Money result=MoneyOps.simpleAdd(f12EUR,f14EUR);
         assertEquals(expected.getValue(),result.getValue());
-        //assertTrue(expected.equals(result));
-        //assertEquals(expected,result);
     }
 }

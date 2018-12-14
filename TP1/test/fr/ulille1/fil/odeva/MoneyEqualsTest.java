@@ -50,12 +50,17 @@ public class MoneyEqualsTest {
 
     @Test(expected = IncompatibleCurrencyException.class)
     public void TestSameMoneyWithMinusculeCurrency() throws UnexistingCurrencyException{
-        Money m=mf.createMoney(12, "eur");
+        Money m = mf.createMoney(12, "eur");
         m.equals(f12EUR);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void TestMoneyWithAnIllegalArgument() throws UnexistingCurrencyException{
         f12EUR.equals(new String());
+    }
+
+    @Test(expected=UnexistingCurrencyException.class)
+    public void TestUnexistingCurrencyException() throws UnexistingCurrencyException{
+        mf.createMoney(12, "MRD");
     }
 }

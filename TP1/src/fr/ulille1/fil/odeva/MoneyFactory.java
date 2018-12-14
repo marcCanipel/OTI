@@ -40,6 +40,12 @@ public class MoneyFactory {
 
   public Money createMoney(int value, String currency) throws UnexistingCurrencyException
   {
+
+    String currencyUpper = currency.toUpperCase();
+    if(!_defaultCurrencies.containsKey(currencyUpper)){
+      throw new UnexistingCurrencyException(currency);
+    }
+
     return new Money(value,currency);
   }
 

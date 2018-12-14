@@ -61,8 +61,4 @@ public class Money {
 		return true;
 	}
 
-	public boolean equals_2(Object o){
-		return getCurrency().equals(((Money) o).getCurrency());
-	}
-
 }
