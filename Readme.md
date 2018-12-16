@@ -11,4 +11,6 @@ Cette partie comporte 2 dossiers :
 - TP2 contenant : src et test (juste Qunit) et un test sonar seul
 - TP2_moneyJs_sinon contenant : src, test_sinon (Qunit + sinon) et utilisation Karma + Sonar avec dossier Capture de son utilisation
 
-Numéro commit de fin :
+Numéro commit de fin : commit e8121501c9ab3372537f16f696954c2f8bc323c3
+
+## Partie c) du rendu :
