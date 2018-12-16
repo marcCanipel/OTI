@@ -20,7 +20,6 @@ QUnit.test("test accesseurs", function(assert)
 }
 );
 
-
 QUnit.test("test equals", function(assert)
 {
 	assert.expect(4);
@@ -33,5 +32,18 @@ QUnit.test("test equals", function(assert)
 	assert.ok(m1EUR.equals(m1eur),"1 EUR égal à 1 eur");
 	assert.ok(!m1EUR.equals(m1CHF),"1 EUR diff de 1 CHF");
 	assert.ok(!m1EUR.equals(m10eur),"1 EUR diff de 10 eur");
+}
+);
+
+QUnit.test("test devise supérieure à 3 caractères", function(assert)
+{
+	assert.throws(function(assert) {var m2=new money(2,"EURS");}, DeviseCaracSupException, "Devise supérieure à 3 caractères");
+}
+);
+
+QUnit.test("test valeur inférieure à 0", function(assert)
+{
+	assert.throws(function(assert) {var m1=new money(-5,"EUR");}, ValueNegativeException, "Valeur inférieure à 0");
+	assert.throws(function(assert) {var m2=new money(-12.5,"EUR");}, ValueNegativeException, "Valeur inférieure à 0");
 }
 );

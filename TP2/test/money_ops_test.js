@@ -8,8 +8,8 @@ QUnit.test("test simple add", function(assert)
 	assert.expect(2);
 
 	var m1=new money(1,"EUR");
-  var m2=new money(2,"EUR");
-  var m3=new money(3,"EUR");
+  	var m2=new money(2,"EUR");
+  	var m3=new money(3,"EUR");
 
 	assert.ok(m3.equals(MoneyOps.add(m1,m2)),"3e = 1e+2e");
 	assert.deepEqual(m3,MoneyOps.add(m1,m2),"3e = 1e+2e deepEqual");
@@ -20,16 +20,36 @@ QUnit.test("test simple add", function(assert)
 QUnit.test("test multi devise add", function(assert)
 {
 	var m1=new money(1,"EUR");
-  var m2=new money(2,"CHF");
+  	var m2=new money(2,"CHF");
 	assert.throws(function(assert) {var m3=MoneyOps.add(m1,m2)}, DevisesIncompatibleExc, "Devises Incompatibles");
 }
 );
 
-QUnit.test("test soustraction inferieur à 0", function(assert)
+QUnit.test("test soustraction inferieure à 0", function(assert)
 {
 	assert.expect(1);
-	var m1=new money(6,"EUR");
-	var m2=new money(2,"EUR");
-	assert.throws(function(assert) {var m3=MoneyOps.sub(m1,m2)}, ValueLessThan0, "Value negatif");
+	var m1=new money(2,"EUR");
+	var m2=new money(6,"EUR");
+	assert.throws(function(assert) {var m3=MoneyOps.sub(m1,m2)}, SubValueNegException, "Valeur négative");
+}
+);
+
+QUnit.test("test soustraction devise différente", function(assert)
+{
+	assert.expect(1);
+	var m1=new money(8,"EUR");
+	var m2=new money(4,"CHF");
+	assert.throws(function(assert) {var m3=MoneyOps.sub(m1,m2)}, DevisesIncompatibleExc, "Devises Incompatibles");
+}
+);
+
+QUnit.test("test simple sub", function(assert)
+{
+	assert.expect(2);
+	var m1=new money(8,"EUR");
+	var m2=new money(3,"EUR");
+	var m3=new money(5,"EUR");
+	assert.ok(m3.equals(MoneyOps.sub(m1,m2)),"5e = 8e-3e");
+	assert.deepEqual(m3,MoneyOps.sub(m1,m2),"5e = 8e-3e deepEqual");
 }
 );

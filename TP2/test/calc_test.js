@@ -86,15 +86,37 @@ QUnit.test("test_computeresult_notSameDevise", function(assert)
 }
 );
 
+QUnit.test("test_simpl_sub_ok", function(assert)
+{
+        var fixture="";
+        fixture+=("<div id='res'></div>");
+        fixture+=("<form id='form0'>");
+        fixture+=("<input type='text' id='v1' name='v1' value='5'/>");
+        fixture+=("<input type='text' id='c1' name='c1' value='EUR'/>");
+        fixture+=("<input type='text' id='v2' name='v2' value='2'/>");
+        fixture+=("<input type='text' id='c2' name='c2' value='EUR'/>");
+        fixture+=("<input type='text' id='ops' name='ops' value='SUB'/>");
+        fixture+=("</form>");
+
+
+        var fixtureNode = document.getElementById("qunit-fixture");
+        fixtureNode.innerHTML = fixture;
+
+        var c = new calc();
+        c.computeResult(document.getElementById('form0'));
+        assert.equal(c.message,"Result : 3 (EUR)");
+}
+);
+
 QUnit.test("test_computeresults_negativeSub", function(assert)
 {
         var fixture="";
         fixture+=("<div id='res'></div>");
         fixture+=("<form id='form0'>");
         fixture+=("<input type='text' id='v1' name='v1' value='2'/>");
-        fixture+=("<input type='text' id='c1' name='c1' value='EU'/>");
+        fixture+=("<input type='text' id='c1' name='c1' value='EUR'/>");
         fixture+=("<input type='text' id='v2' name='v2' value='3'/>");
-        fixture+=("<input type='text' id='c2' name='c2' value='EU'/>");
+        fixture+=("<input type='text' id='c2' name='c2' value='EUR'/>");
         fixture+=("<input type='text' id='ops' name='ops' value='SUB'/>");
         fixture+=("</form>");
 
@@ -104,11 +126,11 @@ QUnit.test("test_computeresults_negativeSub", function(assert)
 
         var c=new calc();
         c.computeResult(document.getElementById('form0'));
-        assert.equal(c.message,"Value negatif : 2 vs 3");
+        assert.equal(c.message,"Valeur négative : 2 vs 3");
 }
 );
 
-QUnit.test("test_computeresults_negativeSub_DifferentDevise", function(assert)
+QUnit.test("test_computeresults_Sub_DifferentDevise", function(assert)
 {
         var fixture="";
         fixture+=("<div id='res'></div>");
@@ -124,13 +146,13 @@ QUnit.test("test_computeresults_negativeSub_DifferentDevise", function(assert)
         var fixtureNode=document.getElementById("qunit-fixture");
         fixtureNode.innerHTML=fixture;
 
-        var c=new calc();
+        var c = new calc();
         c.computeResult(document.getElementById('form0'));
         assert.equal(c.message,"Devises incompatibles : EUR vs CHF");
 }
 );
 
-QUnit.test("test_displayResult_error", function(assert)
+QUnit.test("test_displayResult_error_deviseIncompatible", function(assert)
 {
         var fixture="";
         fixture+=("<div id='res'></div>");
@@ -146,9 +168,32 @@ QUnit.test("test_displayResult_error", function(assert)
         var fixtureNode=document.getElementById("qunit-fixture");
         fixtureNode.innerHTML=fixture;
 
-        var c=new calc();
+        var c = new calc();
         c.computeResult(document.getElementById('form0'));
         c.displayResult(document.getElementById('res'));
-        assert.equal(document.getElementById('res').innerHTML,"<span style=\"color:red\">Devises incompatibles : EYR vs EUR</span>");
+        assert.equal(document.getElementById('res').innerHTML,'<span style="color:red">Devises incompatibles : EYR vs EUR</span>');
+}
+);
+
+QUnit.test("test_displayResult_error_impossibleSub", function(assert)
+{
+        var fixture="";
+        fixture+=("<div id='res'></div>");
+        fixture+=("<form id='form0'>");
+        fixture+=("<input type='text' id='v1' name='v1' value='3'/>");
+        fixture+=("<input type='text' id='c1' name='c1' value='EUR'/>");
+        fixture+=("<input type='text' id='v2' name='v2' value='8'/>");
+        fixture+=("<input type='text' id='c2' name='c2' value='EUR'/>");
+        fixture+=("<input type='text' id='ops' name='ops' value='SUB'/>");
+        fixture+=("</form>");
+
+
+        var fixtureNode=document.getElementById("qunit-fixture");
+        fixtureNode.innerHTML=fixture;
+
+        var c = new calc();
+        c.computeResult(document.getElementById('form0'));
+        c.displayResult(document.getElementById('res'));
+        assert.equal(document.getElementById('res').innerHTML,'<span style="color:red">Valeur négative : 3 vs 8</span>');
 }
 );
