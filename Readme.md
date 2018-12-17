@@ -39,3 +39,5 @@ php -S 127.0.0.1:8080
 Puis pour avoir par exemple l'index du fichier, il suffit de mettre l'url suivant : 
 
 127.0.0.1:8080/src/index.html
+
+Numéro commit de fin : commit acff7d7f3caf2c3bd76e5e699395c1247bfab4c9
