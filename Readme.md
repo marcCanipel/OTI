@@ -1,6 +1,8 @@
-# TP1
+# TPs Canipel Marc
 
 ## Partie a) du rendu :
+
+Projet Java avec JUnit.
 
 Numéro commit de fin : commit 5feeecb50ac1c2e5f790690daf9bd807a3bad8ad
 
@@ -28,16 +30,14 @@ Numéro commit de fin : commit 8c8909f08277336d73575a27e1bdd236bc199450
 
 Projet Web Avancé repris du corrigé de notre interrogation écrite.
 
-Comporte des tests dans le dossier test.
-Utilisation de sonar + Karma avec screen dans le dossier adequat.
-Test via selenium IDE ainsi que tests via SeleniumWebDriver situé dans le dossier testSelenium.
+- Comporte des tests dans le dossier test.
+- Utilisation de sonar + Karma avec screen dans le dossier adequat.
+- Test via selenium IDE ainsi que tests via SeleniumWebDriver situé dans le dossier testSelenium.
 
-Comme pour tous les projets JS avec Qunit, je lance a la racine du projet la commande : 
-
+Comme pour tous les projets JS avec Qunit, je lance la commande à la racine du projet JS en question : 
 php -S 127.0.0.1:8080
 
 Puis pour avoir par exemple l'index du fichier, il suffit de mettre l'url suivant : 
-
 127.0.0.1:8080/src/index.html
 
 Numéro commit de fin : commit acff7d7f3caf2c3bd76e5e699395c1247bfab4c9
